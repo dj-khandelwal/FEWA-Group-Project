@@ -1,6 +1,10 @@
 # project-5consonants
 project-5consonants created by GitHub Classroom
 
+Skewed commit metrics because all the integration work was done on one machine by transfer of code. 
+
+I primarily worked on the external API integration and the page below that shows campus directions.
+
 ## Team Members: 
 Changran Hu,
 Dheeraj Khandelwal,
