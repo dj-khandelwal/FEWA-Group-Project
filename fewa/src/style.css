@@ -1,0 +1,70 @@
+* {
+  font-family: 'Headland One', serif;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh; 
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #544BF5;
+  width: 35%;
+  color: white;
+  
+}
+
+.sidebar h1 {
+  font-size: 45px;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sidebar p {
+  font-size: 16px;
+  margin: 20px;
+  margin-bottom: 60px;
+}
+
+.sidebar li {
+  font-size: 30px;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  margin-right: 45px;
+}
+
+li a {
+  color:white;
+}
+
+li a:hover {
+  border-bottom: 5px solid #FFC107;
+  text-decoration: none;
+  color:inherit;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 65%;
+
+}
+
+.main .homeBtn {
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.selLink {
+  border-bottom: 5px solid #FFC107;
+  text-decoration: none;
+  color:inherit;
+}

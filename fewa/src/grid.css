@@ -1,0 +1,158 @@
+* {
+    font-family: 'Headland One', serif;
+  }
+  
+  .box {
+    display: grid;  
+    height: 100%;       
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: "sidebar  navBar       navBar"
+                         "sidebar  mainContent  mainContent";       
+    
+  }
+  
+  .trackGrid {
+    display: contents;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+    height: 100vh;
+    background-color: #ccc;
+    color: black;
+    
+  }
+  
+  .sidebar h1 {
+    font-size: 45px;
+    margin: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .sidebar p {
+    font-size: 16px;
+    margin: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .sidebar li {
+    font-size: 30px;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    margin-right: 45px;
+  }
+  
+  li a {
+    color:black;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    border-bottom: 5px solid #666;
+    text-decoration: none;
+    color:inherit;
+  }
+  
+  .mainContent {
+    grid-area: mainContent;
+    background-color: white;
+    width: 700px;
+    padding-top: 18%;
+    padding-left: 25%;
+
+  }
+
+  #map1 {
+    padding-left: 6px;
+  }
+
+  #home {
+    padding-right: 6px ;
+  }
+
+
+  .navBar {
+    grid-area: navBar;
+    text-align: right;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .tree {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-template-areas: "filler homeBtn2"
+                         "D3     D3     ";
+    
+  }
+
+  #filler {
+    grid-area: filler;
+    background-color: #ccc;
+  }
+
+  .D3 {
+    grid-area: D3;
+  }
+
+  .homeBtn2 {
+    grid-area: homeBtn2;
+    text-align: right;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+  }  
+
+  .mapGrid {
+    
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    width: 100vw;
+    flex-grow: inherit;
+  }
+
+  .mapSidebar {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #ccc;
+    color: black;
+  
+  }
+
+  .mapSidebar h1 {
+    font-size: 45px;
+    margin-left: 10%;
+    margin-bottom: 40px;  
+  }
+
+  .mapSidebar p {
+    font-size: 16px;
+    margin-left: 10%;
+    margin-bottom: 40px;
+  }
+
+  #testing {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 25%;
+    color: black;
+  }
+
+  #map {
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+
+  }
+
+  
+  
